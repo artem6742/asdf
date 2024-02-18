@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #00cc33;
+
+
+}
+h1{
+
+    padding: 50px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+}
+form{
+    text-align: center;
+    padding: 100px;
+
+
+
+}
+.panel{
+    background-color: green;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+}
+.play-btn{
+    margin: 30px;
+}
+
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 20px;
+
+    font-family: 'Press Start 2P', sans-serif;
+
+
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #a20622;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', sans-serif;
+    border: 2px solid black;
+    -webkit-text-stroke: 1px black;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff2942;
+}
+
+.form_game{
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2b5b11;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#Object{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+#Monsters{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
